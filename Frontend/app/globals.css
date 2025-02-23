@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-prompt), sans-serif;
+}
+
+/* เปลี่ยนสีจุด pagination */
+.swiper-pagination-bullet {
+  background-color: rgb(48, 48, 48) !important; /* เปลี่ยนสีจุดเป็นสีแดง */
+  width: 10px !important;
+  height: 10px !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black !important; /* เปลี่ยนสีจุดที่ active เป็นสีฟ้า */
+  opacity: 1;
+}
+
+/*Loading...*/
